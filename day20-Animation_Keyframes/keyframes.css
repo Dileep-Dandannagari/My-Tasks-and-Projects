@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bell{
+    width: 100px;
+    height: 100px;
+    background-image: url("./logo/logo1.png");
+    background-size: cover;
+    margin: 200px auto;
+}
+
+.bell:hover{
+    animation-name: ringing;
+    animation-duration: 100ms;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes ringing{
+    from{
+        transform: rotate(30deg);
+    }
+    to{
+        transform: rotate(-30deg);
+    }
+}
+.cat{
+    width: 100px;
+    height: 100px;
+    background-image: url("./logo/cat.png");
+    background-size: cover;
+    animation-name: gocat;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+    /* animation-direction: alternate; */
+    animation-timing-function: linear;
+}
+.cat:hover{
+    /* animation-name: gocat;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+    /* animation-direction: alternate; */
+   /* animation-timing-function: linear; */
+}
+hr{
+    height: 20px;
+    background-color: black;
+}
+.cat:hover{
+   animation-play-state: paused;
+}
+/* 
+
+
+@keyframes slide{
+    from{
+        transform: translate(10px);
+    }
+    to{
+        transform: translate(100vw);
+    }
+
+} */
+@keyframes gocat{
+    from{
+        margin: 0;
+    }
+    to{
+        margin-left: 90%;
+    }
+}

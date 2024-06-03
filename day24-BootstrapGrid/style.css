@@ -1,0 +1,40 @@
+/* .danger{
+    color:red;
+}
+.primary{
+    color:blue;
+}
+.success{
+    color:green;
+}
+.green{
+    color: blue;
+}
+.img-fluid{
+    width:400px;
+    height: 400px;
+}
+.items{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    margin:2px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+.container{
+    background-color: lightblue;
+    height: 700px;
+} */
+.img-fluid{
+    height: 300px;
+    width: 300px;
+    margin: 5px;
+}
+@media screen and (max-width:575px){
+    .img-fluid{
+        width:100%; 
+    }
+}

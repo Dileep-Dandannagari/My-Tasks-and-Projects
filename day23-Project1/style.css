@@ -1,0 +1,112 @@
+/* removing the defaults */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 47%;
+    height:465px;
+    margin: 100px auto;
+    /* background: #f4f4f4; */
+    box-shadow: 0px 0px 2px aquamarine;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+/* .sub-container{
+    width: 100%;
+    height: 100%;
+    /* background-color: grey; */
+    /*display: flex;
+    justify-content: space-between;
+} */
+.img{
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+    background-image:  linear-gradient( 180deg, rgba(54,88,237,1) 0%, rgba(216,14,225,1) 58%, rgba(255,252,0,1) 100%);
+    background-image: url("./background-gradient.jpeg");
+    background-size: cover;
+    background-position: top;
+    border-radius: 15px;
+}
+.form{
+    padding:30px;
+}
+/* 04333f */
+label{
+    display: block;
+    color: #06336a;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.heading{
+    color: #06336a;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    font-family: Calibri,sans-serif;
+}
+.para{
+    color: grey;
+    margin-bottom: 25px;
+}
+input{
+    width: 100%;
+    height: 35px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 2px black;
+    border-radius: 5px;
+}
+button{
+    position: relative;
+    left:280px;
+    top:70px;
+    background-color: #06336a;
+    color:white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+ @media screen and (max-width:1200px){
+    .container{
+        width: 80%;
+    }
+} 
+.nav-steps{
+    display: grid;
+    grid-template-columns: 20px 150px;
+    grid-template-rows: 20px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 20px;
+    column-gap: 35px;
+    text-transform: uppercase;
+    font-size:11px;
+    letter-spacing: 1px;
+    font-family:"Figtree", sans-serif;
+}
+.row-2{
+    grid-row: span 2;
+}
+.rounded{
+    width:40px;
+    height: 40px;
+    border: 1px solid white;
+   /* background-color: aquamarine; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+}
+.grey-span{
+    color: grey;
+}
+.row-2:hover{
+   background-color: aliceblue;
+   color: black;
+}

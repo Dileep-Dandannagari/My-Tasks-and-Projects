@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    /* max-width: 1200px; */
+    margin:0 auto;
+}
+h1{
+    font-size:3em;
+    background-color: lightcoral;
+    padding: 10px;
+    text-align: center;
+}
+nav{
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 15px; */
+    margin-bottom: 15px;
+}
+ul li{
+    display: inline;
+    /* list-style-type: none; */
+    margin: 0;
+    padding: 0;
+}
+ul{
+    /* border: 1px solid white; */
+    padding:15px ;
+    flex-grow: 1;
+    max-width:50%;
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+a:hover{
+    background-color: black;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+section{
+    flex-grow: 1;
+}
+footer{
+    margin-top: 50px;
+}
+@media print and  (orientation:landscape){
+   *{
+    color: red;
+    font-weight: bold;
+   }
+}
+/* Below are the breakpoints takes from W3schools */
+/*For extra small devices (phones, 600px and down)*/
+@media screen and (min-width:500px) and (max-width: 650px){
+   nav, ul{
+        flex-direction: column;
+        align-items: center;
+   }
+   h1{
+    font-size: 2em;
+    background-color: green;
+   }
+  a{
+    padding:0;
+  }
+  main{
+    flex-direction: column;
+  }
+  aside,section,article{
+    margin-bottom: 20px;
+    border-bottom:2px solid black ;
+}
+}
+/*For medium devices (landscape tables, 768px and up)*/
+/* @media screen and (min-width:768px ) and (max-width:900px){
+    nav{
+        background-color:blueviolet;
+        color:teal;
+        font-size:24px;
+    }
+} */

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ems and rems</title>
+    <style>
+      h1 {
+        font-size: 2em; /*16px*/
+      }
+      div h1 {
+        font-size: 2rem;
+      }
+      body {
+        font-size: 44vh;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Understanding ems and rems</h1>
+    <div>
+      <h1>Lorem ipsum dolor sit amet</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+        distinctio omnis voluptas iste officiis? Deserunt, sunt! Unde fugiat
+        dignissimos nihil quidem amet, voluptate similique laborum molestiae
+        voluptatibus, cupiditate, id iure?
+      </p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+.text-primary{
+    color:green ;
+}
+/*This ruleset is not applicable becuase it is overridden by bootstrap*/
+.custom{
+    display: flex;
+    justify-content: space-around;
+}
+.heading{
+    padding-top: 50px;
+}
