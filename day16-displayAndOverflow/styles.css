@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    /* text-shadow: 3px 3px 3px #333; */
+   text-decoration: underline;
+   margin: 50px;
+}
+
+/* checking out border and table properties */
+table, th, td{
+    border-bottom:2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+table{
+    width: 100% ;
+}
+th{
+    height: 70px;
+    text-shadow: 2px 2px 2px orange;
+}
+/* using pseudo classes for hover effect */
+tr:nth-child(even){
+    background-color: #f4f4f4;
+}
+tr:hover{
+    background-color: #333;
+    color: white;
+}
+
+
+.container{
+    overflow-x: auto;
+    margin-bottom: 100px;
+}
+
+/* practicing content overflow with different example */
+.container2{
+    width: 500px;
+    height: 300px;
+    background-color: lightcoral;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    /* overflow-x: auto; */
+    overflow: scroll;
+    
+     /* overflow: hidden; */
+     /* overflow: visible; */
+
+}
+hr{
+    border-top: 2px solid black;
+    box-shadow: 2px 5px 3px lightgreen;
+    margin: 50px;
+}
+
+/* practicing with links and respective pseudo classes */
+.container3{
+    text-align: center ;
+}
+a{
+    display: block;
+   
+}
+a:link{
+    color: green;
+    text-decoration: none;
+}
+a:active{
+    color:red;
+}
+a:visited{
+    color:orange;
+}
+a:hover{
+    text-decoration: underline;
+    padding: 20px;
+    font-size: 20px;
+}
+
+/* practicing the inline and block level elements  */
+h3{
+    background-color: turquoise;
+    border: 1px solid black;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+  
+}
+h3:hover{
+    display: inline-block;
+}
+span{
+    background-color: palevioletred;
+    border:1px solid black;
+    display: block;
+}
+
+/* practicing the display and visibility properties */
+.block{
+    width: 390px;
+    height: 120px;
+    margin: 0 auto;
+    border: 2px solid black;
+    background-color: #f4f4f4;
+}
+.block1{
+    height: 100px;
+    width: 100px;
+    margin:10px;
+    background-color: teal;
+    display: inline-block;
+    /* display: none; */
+}
+.block2{
+    height: 100px;
+    width: 100px;
+    margin:10px;
+    background-color: tomato;
+    display: inline-block;
+    /* display: none; */
+    
+     visibility: hidden;
+}
+.block3{
+    height: 100px;
+    width: 100px;
+    margin:10px;
+    background-color: green;
+    display: inline-block;
+}
+
+/* playing around with float */
+img{
+    /* float: right;
+    float:left; */
+    /* float: none; */
+    float:right
+}

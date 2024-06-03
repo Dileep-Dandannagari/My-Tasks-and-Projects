@@ -1,0 +1,104 @@
+/* changing the defualt values */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    
+}
+
+
+body{
+    background-image: linear-gradient(to left, #f4f4f4, #333);
+}
+
+
+h1{
+    color:black;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 3px 3px 3px yellowgreen;
+    text-decoration:double;
+    text-decoration-color:orange ;
+}
+
+
+/* using absolute path with background image */
+.container{
+    width: 80%;
+    height: 400px;
+    /* padding-bottom: 400px; */
+    /* padding-top:-20px; */
+    /* background-color: aqua; */
+    margin:  10%;
+    background-image: url("https://image.unsplash.com/photo-1713528199169-9488eb2d2b79?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHx8");
+    background-size:contain;
+    /* background-size: contain; */
+    background-repeat: repeat-x;
+    /* text-align: center; */
+    background-position:center;
+    /* background-repeat: repeat; */
+    background-color: aqua;
+}
+
+
+/* using list style image with ordered and unordered-list and addding some styles to the list */
+#unordered-list{
+    margin-left: 250px;
+    list-style-image: url("./listimage.jpeg");
+    background-size: 20px;
+   /* list-style: circle; */
+   /* list-style-type: disc; */
+}
+
+
+li{
+    list-style: none;
+    padding: 10px 30px;
+    background-image: url("./listimage.jpeg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 3px red;
+}
+
+
+#ordered-list{
+    margin-left: 50px;
+    padding-left:150px;
+}
+
+/* adding content on the top of the background image   */
+.container2{
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+    font-size: 30px;
+    color: white    ;
+    text-align: center;
+    background-color: blanchedalmond;  
+    background-image: url("https://images.unsplash.com/photo-1711994872181-1e112e5e18e0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHx8");    
+   
+}
+h3{
+    padding:30px;
+}
+img{
+    margin: 30px;
+    border: 3px solid brown;
+    border-radius: 30px;
+}
+
+.el{
+    width: 100%;
+    height: 800px;
+   background-image: url("https://images.unsplash.com/photo-1528287942171-fbe365d1d9ac?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&w=1200&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   mask-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/sun.svg);
+   mask-position: center;
+   mask-repeat: no-repeat;
+   mask-size: cover;
+
+}

@@ -1,0 +1,60 @@
+/* Internal styles for flexbox application */
+body {
+    background: #282828;
+  }
+
+ .container {
+    background: #545454;
+    text-align: center;
+  }
+
+
+
+  #slogan {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: tahoma;
+    margin-bottom: 20px;
+  }
+
+  .flex-box  div {
+    width: 280px;
+    margin-bottom: 10px;
+    text-align: center;   
+    background: #444;
+    padding: 10px;
+  }
+  .flex-box {
+    width:90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly ;
+  }
+
+  .flex-box img {
+    width: 100%;
+    height: 80%;
+  }
+  .flex-box img:hover{
+    transition: all 3s;
+    border-radius: 40%;
+  }
+
+  .flex-box a {
+    color: yellow;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .flex-box h4 {
+    color: cyan;
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+
+  .flex-box a:hover {
+    color: orange;
+    text-decoration: underline;
+  }
