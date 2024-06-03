@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp Form</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+      h1 {
+        background-color: #333;
+        padding: 20px;
+        color: white;
+        text-align: center;
+      }
+      div {
+        text-align: center;
+      }
+      button {
+        color: white;
+        background-color: blue;
+      }
+      button:hover {
+        background-color: green;
+        font-size: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>SignUp Form</h1>
+    <br /><br />
+    <h3 style="color: green; text-align: center">It's Quick and Easy</h3>
+    <br />
+    <form>
+      <table align="center">
+        <tr>
+          <td>FirstName::</td>
+          <td>
+            <input type="text" required placeholder="Enter your FirstName" />
+          </td>
+        </tr>
+        <tr>
+          <td>LastName::</td>
+          <td>
+            <input type="text" required placeholder="Enter your LastName" />
+          </td>
+        </tr>
+        <tr>
+          <td>Mobile No::</td>
+          <td><input type="tel" placeholder="MobileNo" required /></td>
+        </tr>
+        <tr>
+          <td>Email::</td>
+          <td>
+            <input
+              type="email"
+              name=""
+              id=""
+              required
+              placeholder="Enter Your email"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>PassWord::</td>
+          <td>
+            <input
+              type="password"
+              required
+              placeholder="Set a Strong Password"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Confirm PassWord::</td>
+          <td><input type="password" required /></td>
+        </tr>
+        <tr>
+          <td><button>SignUp</button></td>
+          <td><button>Reset</button></td>
+        </tr>
+      </table>
+    </form>
+    <br />
+    <div>
+      <a href="./login.html">Already have an account?</a>
+    </div>
+  </body>
+</html>
