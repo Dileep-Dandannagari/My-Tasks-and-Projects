@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+/* selectign all elements inside body by universal selector and applying external font family */
+*{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+
+}
+big h1{
+    color:red ;;
+    text-align:center;
+    text-decoration: underline;
+    text-decoration-style: wavy ;
+   text-decoration-color: aqua;
+   font-style: oblique;
+}
+
+/* selecting h1 with  id( morning)and manipulatingcolor */
+#morning{
+    color: blue;
+    font-style: italic;
+}
+/* selection h1 with class (morning)  manipulating alignment and spacing  */
+.morning{
+    text-align: center;
+    letter-spacing: 5px;
+    color: orange;
+
+}
+/* selecting h1 with  element name and manipulating font styles */
+h1{
+    font-style: italic;
+}
+/* selecting the h1 with one of the class in class list */
+.morn{
+    text-align: justify;
+}
+
+/* selecting the h1 with one of the class in class list
+ */
+ .m{
+    background-color: #f4f4f4;  
+    text-align: center;
+ }
+
+
+ body{
+    background-color: beige;
+ }
+
+ span{
+   font-size: 40px;
+   font-family: Arial, sans-serif;
+   font-weight: bolder;
+   font-style: normal;
+   text-shadow: 5px 5px 3px pink;
+ }
+
+ #font{
+    font  :italic 100 20px "Firs Sans", sans-serif;
+ }
+ #font-family{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ #font-size{
+    font-size: 50px;
+ }
+ #font-style{
+    font-style: oblique;
+ }
+
+ #font-weight{
+    font-weight: bolder;
+    
+ }
+
+#expand{
+    color: blue;
+    font-stretch: ultra-condensed;
+}
+
+
+
+

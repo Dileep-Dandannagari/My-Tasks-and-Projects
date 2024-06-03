@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Specificity</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1 style="color: green; text-align: center">
+      <u>Learning Specificity by using different selectors</u>
+    </h1>
+    <br />
+    <h2 class="heading" id="h2">
+      I am h2, targetted by multiple selectors. So, browser please help me with
+      your Specificity rule.(id>class>element)
+    </h2>
+    <h2>
+      I am h2, targetted by multiple same type of selectors (Order matters in my
+      scenario)
+    </h2>
+    <h2 class="heading">
+      I am h2, targetted by element and class selectors(class>element)
+    </h2>
+    <hr />
+    <div id="div" style="background-color: black !important">
+      I am Div, and targetted by style attribute and id selector
+    </div>
+    <br />
+    <div>style attribute>id selector</div>
+    <hr />
+    <div class="container">
+      <button id="button" class="btn" style="color: blue">Click me</button>
+    </div>
+    <h1>
+      <u>Small conversation between style attribute and ID selector</u>
+      &#128518;
+    </h1>
+    <p>
+      <b>style: </b> Thank you browser for giving me more importance than these
+      poor selectors.
+    </p>
+    <p>
+      <b>Id: </b> I agree that you are the boss. But I also get the second
+      highest priority. And I can't control my laugh when I see that little
+      element selector competing with me.
+    </p>
+
+    <p>(Meanwhile, element selector with !important property)</p>
+    <p>
+      <b>Element selector:</b> I think you(style) lost your mind due that
+      overconfidence. Just once go and check which color you tried to apply and
+      which one is really applied. So for this time I am the real boss.&#128526;
+    </p>
+    <p><b>style: </b> &#128534; &#128534;</p>
+
+    <hr />
+    <br />
+    <h1 style="text-align: center">
+      Coloring the below elements by google color picker
+    </h1>
+    <h2 style="color: aqua !important">Named color</h2>
+    <h2 style="color: rgb(111, 80, 199)">RGB(R,G,B) color</h2>
+    <h2 style="color: hsl(150, 150%, 40%)">
+      HSL(Hue, saturation, light) color
+    </h2>
+    <h2 style="color: #6dc750">HEX(#RRGGBB;) color</h2>
+  </body>
+</html>

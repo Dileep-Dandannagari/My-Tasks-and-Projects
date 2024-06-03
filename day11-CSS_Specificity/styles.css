@@ -1,0 +1,48 @@
+/* class selector */
+.heading{
+    color:blue;
+}
+/* id selector */
+#h2{
+    color:orange;
+}
+#h2{
+  color: green;
+}
+/* element selector */
+h2 {
+    color: aqua;
+  }
+
+  h2{
+    color:red;
+  }
+
+  #div{
+    background-color: maroon;
+    color: white;
+    font-size: 50px;
+  }
+
+
+  div{
+    background-color: blue !important;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+  }
+  p{
+    font-size: 20px;
+  }
+
+  .container{
+    background-color: white  !important;
+  }
+  #button{
+    color: red;
+  }
+
+  button{
+    background-color: green;
+    color: white !important;
+  }
