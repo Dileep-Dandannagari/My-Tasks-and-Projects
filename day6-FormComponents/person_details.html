@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Practicing all form components in single page -->
+    <h1 style="color: red; text-align: center">
+      Working with all form components
+    </h1>
+    <form>
+      <table align="center" bgcolor="cyan   ">
+        <tr>
+          <td><label for="name">Person Name::</label></td>
+          <td><input id="name" type="text" placeholder="Enter you name" /></td>
+        </tr>
+        <tr>
+          <td><label for="age">Person Age::</label></td>
+          <td><input id="age" type="password" /></td>
+        </tr>
+        <tr>
+          <td><lable for="adress">Person Adress::</lable></td>
+          <td>
+            <textarea
+              id="adress"
+              rows="3"
+              cols="19"
+              placeholder="Enter current adress"
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+            <td>Gender::</label></td>
+            <td><input type="radio" name="Gender" value="M"> Male &nbsp; 
+            <input type="radio" name="Gender" value="F">Female</td>
+        </tr>
+        <tr>
+             <td>Marital Status:</td>
+             <td><input type="checkbox" name="status">married&nbsp;   </td>
+        </tr>
+        <tr>
+             <td> Qualification ::</td>
+             <td><select>
+                <option  selected>-----select any option-------</option>
+                <option>B.E/ B.tech</option>
+                <option>MBBS/MD</option>
+                <option>MBA/BBA</option>
+                <option>BSc/MSc</option>
+             </select></td>
+        </tr>
+        <tr>
+			<td>Courses::</td>
+			<td><select name="crs" multiple>
+					<option >Java Package</option>
+					<option >.Net Package</option>
+					<option >HP package</option>
+					<option > Package</option>
+					<option >Spring STack</option>
+
+			</select></td>
+		</tr>
+        <!-- Advanced html form components -->
+        <tr>
+            <td><lable for="email" >Person Email::</lable></td>
+            <td><input type="email" id="email"></td>
+        </tr>
+        <tr>
+            <td>Person DOB::</td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td>Person TimeofBirth::</td>
+            <td><input type="time"></td>
+        </tr>
+        <tr>
+            <td>Week of Birth</td>
+            <td><input type="week"></td>
+        </tr>
+        <tr>
+            <td>FB Url::</td>
+            <td><input type="url"></td>
+        </tr>
+        <tr>
+            <td>Mobile Number::</td>
+            <td><input type="tel"></td>
+        </tr>
+        <tr>
+            <td>Favorite color::</td>
+            <td><input type="color"></td>
+        </tr>
+        <tr>
+            <td>Salary::</td>
+            <td><input type="range" min="20000" max="100000"></td>
+        </tr>
+        <tr>
+            <td>Search Something::</td>
+            <td><input type="search"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Process Request"></td>
+            <td><input type="reset" value="cancel"></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

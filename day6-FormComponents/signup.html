@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp form</title>
+    <style>
+      .myClass {
+        text-align: center;
+      }
+      table {
+        background-color: lightgray;
+      }
+
+      /* button {
+        background-color: blue;
+        color: white;
+      /* } */
+      input {
+        color: blue;
+        background-color: lightgreen;
+      }
+      #file {
+        color: red;
+      }
+      .button {
+        background-color: blue;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="myClass" style="color: red">SignUP form</h1>
+    <br />
+    <h3 class="myClass" style="background-color: cyan">Create New account</h3>
+    <h5 class="myClass" style="color: green">It's quick and easy</h5>
+    <form>
+      <table align="center">
+        <tr>
+          <td><label for="first">First Name::</label></td>
+          <td>
+            <input type="text " id="first" placeholder="Enter your Firstname" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="last">Last Name::</label></td>
+          <td>
+            <input type="text " id="last" placeholder="Enter your Lastname" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="mail">Enter you mail ID::</label></td>
+          <td>
+            <input type="email" id="mail" placeholder="Enter Your email id" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="pass">PassWord::</label></td>
+          <td>
+            <input type="password" id="pass" placeholder="Set a password" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="num">Phone number::</label></td>
+          <td><input type="tel" id="num" /></td>
+        </tr>
+        <tr>
+          <td>Upload You Resume::</td>
+          <td><input type="file" id="file" /></td>
+        </tr>
+        <tr>
+          <td><button class="button">SignUp</button></td>
+          <td>
+            <a href="../day5-Tables/index.html">Home</a>
+          </td>
+          <td>
+            <input class="button" type="reset" />
+          </td>
+        </tr>
+      </table>
+    </form>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <hr />
+    <h1 style="color: green; text-decoration: underline">CSS Specificity :</h1>
+
+    <p style="font-size: medium">
+      Specificity comes into play when conflictin styles target the same
+      elements. If the same selector target the same element then order matters.
+      And if the different selectors targeting the same elements then
+      Specificity comes into play <b>CSS Specificity</b>
+      is how the browser decides which rules to apply when multiple rules could
+      apply to the same element . It is the measure of how specific a given
+      selector is. The more specific selector wins.
+    </p>
+    <img src="./specificity/WhatsApp Image 2024-04-18 at 10.00.24 PM.jpeg" />
+
+    <img src="./specificity/WhatsApp Image 2024-04-18 at 10.00.25 PM.jpeg" />
+    <img
+      src="./specificity/WhatsApp Image 2024-04-18 at 10.00.25 PM (1).jpeg"
+    />
+    <img
+      src="./specificity/WhatsApp Image 2024-04-18 at 10.00.25 PM (2).jpeg"
+    />
+    <img src="./specificity/WhatsApp Image 2024-04-18 at 10.00.26 PM.jpeg" />
+  </body>
+</html>
