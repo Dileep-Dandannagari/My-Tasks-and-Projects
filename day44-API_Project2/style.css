@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    font-family: cursive;
+}
+
+header {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding-top: 40px;
+    padding-left: 60px;
+}
+
+.header-container {
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+header p {
+    margin: 15px;
+}
+
+.product-container {
+    width: 250px;
+    /* height: 400px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-container img {
+    width: 100%;
+    height: 50%;
+    object-fit: scale-down;
+}
+
+.style-span {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
