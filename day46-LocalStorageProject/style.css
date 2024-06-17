@@ -1,0 +1,49 @@
+.checked {
+    text-decoration: line-through;
+}
+
+.todo-list {
+    height: 400px;
+    /* background-color: crimson; */
+    overflow-y: scroll;
+}
+
+@media screen and (max-width:450px) {
+
+    .checker {
+        margin-right: 10px;
+    }
+
+    .btn-warning,
+    .btn-danger {
+        display: none;
+    }
+
+    .update {
+        color: yellow;
+        font-size: 25px;
+        margin: 0 20px;
+    }
+
+    .delete {
+        font-size: 25px;
+        color: red;
+    }
+
+    .input-field {
+        width: 75% !important;
+    }
+
+    .text-primary {
+        color: white !important;
+    }
+
+    .container {
+        width: 85% !important;
+        border: none !important;
+        box-shadow: 2px 3px 4px aqua;
+        border-radius: 20px;
+        background-color: black;
+        margin: 20px;
+    }
+}
